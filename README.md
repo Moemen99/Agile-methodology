@@ -73,3 +73,82 @@ Respect is a fundamental principle in Agile and should be the default behavior f
 ## Conclusion
 
 Adopting these Agile principles helps teams deliver high-quality products efficiently. Remember, Agile is not just about following a set of rules, but about embracing a mindset that values flexibility, collaboration, and continuous improvement.
+
+
+
+
+# Agile Principles and Mindset
+
+[Previous content remains unchanged]
+
+## Common Agile Myths
+
+There are several myths about Agile that need to be addressed:
+
+1. **Customers know exactly what they want**: While customers know their business, they may not always know the exact details of what they need in a software solution.
+
+2. **Developers know exactly what they're building**: Developers may have a good understanding of the technical aspects, but may not always grasp all the business implications.
+
+3. **Nothing will change along the way**: Change is inevitable in most projects. The Agile approach helps create projects that can accept change requests at any time without causing major problems.
+
+## Agile Process: IRKIWIEI
+
+IRKIWIEI stands for "I'll Really Know It When I Experience It". This concept is central to the Agile approach, emphasizing the importance of iterative development and feedback.
+
+## Project Lifecycle
+
+In an Agile project, we divide the work into modules and services. Each service goes through four main processes:
+
+1. **Development (DEV)**
+2. **Quality Assurance/Quality Control (QA/QC)**
+3. **Staging/User Acceptance Testing (UAT)**
+4. **Production (PROD)**
+
+```mermaid
+graph LR
+    A[Development] --> B[QA/QC]
+    B --> C[Staging/UAT]
+    C --> D[Production]
+    D --> A
+```
+
+### Detailed Workflow
+
+1. **Business Requirements**:
+   - Business consultants document requirements in SRS (Software Requirements Specification) or RD (Requirements Document).
+   - This document is delivered to development and testing teams.
+
+2. **Development**:
+   - Frontend and backend developers start working on implementation.
+   - Testers begin writing test cases based on business requirements.
+
+3. **Testing**:
+   - Developers deploy the service to the testing server.
+   - Testers execute test cases (manually or through automation).
+
+4. **Smoke Testing**:
+   - Developers create a "smoke" work item to indicate a service is ready for testing.
+   - This is managed through platforms like Azure DevOps or Jira.
+
+5. **Bug Tracking and Fixing**:
+   - Testers create bug work items for issues found.
+   - Developers fix bugs and redeploy.
+   - Critical bugs may stop the smoke testing process.
+
+6. **Staging and UAT**:
+   - Service is deployed to the staging server.
+   - Business consultants demonstrate the service to the customer.
+   - Customer provides feedback (UAT comments or Change Requests).
+
+7. **Production**:
+   - If everything is approved, the service goes live in production.
+
+## Tools and Platforms
+
+- Azure DevOps or Jira are commonly used for managing Agile workflows.
+- These platforms allow creation of work items like tasks, bugs, and smoke tests.
+- They facilitate communication between team members and track project progress.
+
+## Conclusion
+
+The Agile approach, with its iterative processes and emphasis on communication, helps teams navigate the complexities of software development. It acknowledges that requirements may change and encourages adaptability throughout the project lifecycle.
