@@ -221,3 +221,62 @@ By cultivating these qualities, Agile team members contribute to the overall suc
 ## Conclusion
 
 The Agile methodology, with its iterative approach and emphasis on adaptability, represents a significant evolution from the Waterfall model. Central to its success is the cultivation of a growth mindset among team members. This mindset, characterized by a willingness to learn, accept challenges, and continuously improve, enables Agile teams to navigate the complexities of modern software development effectively.
+
+
+
+
+## Core Values of Agile
+
+Agile methodology is built upon four fundamental values that guide decision-making and prioritization in project management. These values, as outlined in the Agile Manifesto, are:
+
+### 1. Individuals and Interactions over Processes and Tools
+
+- Emphasizes the importance of team dynamics and communication
+- Recognizes that the people on a project and how they work together are more critical to success than the tools and processes they use
+- Promotes harmony and mutual support within the team
+
+### 2. Working Software over Comprehensive Documentation
+
+- Prioritizes delivering functional software over extensive documentation
+- Focuses on tangible results rather than just plans or discussions
+- Encourages a "show, don't tell" approach to demonstrating progress
+
+### 3. Customer Collaboration over Contract Negotiation
+
+- Emphasizes building a cooperative relationship with the customer
+- Promotes ongoing engagement and feedback from the customer throughout the project
+- Values being helpful and responsive to customer needs over rigid adherence to initial contract terms
+
+### 4. Responding to Change over Following a Plan
+
+- Acknowledges that change is inevitable in software projects
+- Prioritizes flexibility and adaptability in the face of changing requirements
+- Encourages teams to be prepared for and embrace change requests at any point in the project
+
+```mermaid
+graph TD
+    A[Agile Core Values]
+    A --> B[Individuals and Interactions]
+    A --> C[Working Software]
+    A --> D[Customer Collaboration]
+    A --> E[Responding to Change]
+    B --> F[over Processes and Tools]
+    C --> G[over Comprehensive Documentation]
+    D --> H[over Contract Negotiation]
+    E --> I[over Following a Plan]
+```
+
+These values do not dismiss the items on the right (processes and tools, documentation, contracts, and plans) as unimportant. Rather, they emphasize that the items on the left should be valued more highly. This shift in priorities is what enables Agile teams to be more flexible, responsive, and ultimately more successful in delivering value to their customers.
+
+## Applying Agile Values in Practice
+
+1. **Foster a Collaborative Environment**: Encourage open communication and teamwork. Set up regular stand-ups, retrospectives, and pair programming sessions to promote interaction.
+
+2. **Deliver Early and Often**: Focus on creating working increments of software that can be demonstrated to stakeholders. Use techniques like continuous integration and deployment to ensure regular delivery of working software.
+
+3. **Engage Customers Regularly**: Involve customers or their representatives in sprint reviews, demos, and planning sessions. Be open to their feedback and willing to adjust priorities based on their input.
+
+4. **Embrace Change**: Maintain a flexible backlog and be prepared to reprioritize based on new information or changing market conditions. Use short sprints or iterations to allow for frequent reassessment and course correction.
+
+By adhering to these core values, Agile teams can create an environment that is responsive to change, focused on delivering value, and built on strong relationships both within the team and with customers.
+
