@@ -343,4 +343,4 @@ To successfully implement Agile, teams should strive to embody these principles 
 
 By adhering to these principles, Agile teams can create an environment that is responsive to change, focused on delivering value, and built on strong relationships both within the team and with customers.
 
-[Rest of the document remains unchanged]
+
