@@ -75,12 +75,6 @@ Respect is a fundamental principle in Agile and should be the default behavior f
 Adopting these Agile principles helps teams deliver high-quality products efficiently. Remember, Agile is not just about following a set of rules, but about embracing a mindset that values flexibility, collaboration, and continuous improvement.
 
 
-
-
-# Agile Principles and Mindset
-
-[Previous content remains unchanged]
-
 ## Common Agile Myths
 
 There are several myths about Agile that need to be addressed:
